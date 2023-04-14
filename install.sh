@@ -9,8 +9,7 @@
 # Disable user promt
 DEBIAN_FRONTEND=noninteractive
 
-apt install software-properties-common
-add-apt-repository ppa:ondrej/php
+add-apt-repository ppa:tomvlk/php-archive
 # Update list of available packages
 apt-get update -y -q
 # Update installed packages
